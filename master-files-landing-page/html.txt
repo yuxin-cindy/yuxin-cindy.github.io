@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+</head>
+
+<body>
+  <section class="top">
+    <header>
+        <img src="images/logo/logo.png" class="logo" alt="logo" />  
+        <h1 >Want to be your own boss? </h1>
+        <h2 >Start today and make up to $30/hr driving your own vehicle with Dash!</h2>
+        <img src="images/bg-image/scooter.svg" class="scooter" alt="scooter">
+    </header>
+  </section>
+          <form>               
+        <section class="form-wrap">
+          <!--  make everything in the table is in the one container/-->
+          <div class="form-main">           
+            <h2>Apply Now</h2>
+            <h3>Enter your info below.</h3>
+ 
+            <fieldset>  
+              <label ></label> 
+              <input 
+              type="text"    name="firstName"  id="firstName"    placeholder="First name"   
+               >        
+              </fieldset> 
+
+              <fieldset>
+                <label ></label> 
+              <input 
+              type="text" 
+              name="lastName" 
+              id="lastName"
+              placeholder="LastName"
+             > 
+            </fieldset>
+
+            <fieldset>
+              <label ></label> 
+             <input 
+             type="text" 
+             name="email" 
+             id="emial"
+             placeholder="Emial Address"
+            >   
+          </fieldset>
+          <fieldset>
+            <label ></label> 
+             <input 
+                type="text" 
+                name="phone" 
+                id="phone"
+                placeholder="Phone number"
+               > 
+              </fieldset>
+          
+              <div> 
+                <label ></label>                 
+              <input type="checkbox" name="agree" id="agree" >
+              <label for="agree">I agree to dash terms  </label>
+            </div> 
+            <button type="submit" class="driver">DRIVER WITH US</button>
+            <div class="already">
+            <h3 class="p1">Already applied?</h3>
+        
+            <a href = “https://mp.csdn.net/” >Check your application status here</a>
+          </div> 
+          </div>     
+        </section>
+      
+    </form>
+  
+
+    
+  
+    <footer >
+      <section class="bottom">
+      <h2>See how much you can earn with Dash.</h2>
+      <h3>how many hours do you want to drive with us this week?</h3>
+
+      <div class="form-footer">   
+            
+        <input 
+        type="text" 
+        name="hours" 
+        class="hours"
+        placeholder="Hours"
+       > 
+              
+            
+                  
+        <input 
+        type="text" 
+        name="city" 
+        id="city"
+        placeholder="City"
+       > 
+     
+     
+        <button class="calculate">CALCULATE</button>
+      </div >
+      <div class="icon">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+      </div>
+
+    </section>
+   </footer>
+   
+    
+
+ 
+</body>
+</html>

@@ -1,0 +1,454 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style */
+
+/* mobile version */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#f7f7ff; 
+    margin: 0;
+    max-width: 1920px;
+    max-height: 900px;
+}
+body .top{
+    background-color: #f7f7ff; 
+    margin: 10px ;
+}
+/* make the logo, h1, and h2 have the same margin */
+.logo{
+    max-width: 60px;
+    margin: 10px 20px;
+}
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;
+    text-align: left;
+    font-weight: 600;
+    margin:10px 20px;
+}
+header h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 10px 20px;
+}
+
+section{
+    min-width: 200px;
+}
+
+/* Set the size and position of the image */
+.scooter{
+    display: block;
+    max-width: 90%;
+    margin: auto;
+}
+
+.form-wrap{
+    background-color: white;   
+    border-radius: 10%;
+    box-shadow:  2px 4px 4px 2px lightgray;
+    max-width: 80%;   
+    margin: 10px auto;
+    padding:3px;
+}
+
+/* make the marign in the form*/
+.form-main{   
+    margin:10px 20px ;
+}
+
+.form-wrap  h2{
+    font-family: 'Montserrat', sans-serif;    
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 20px 0 0 0;  
+}
+
+.form-wrap h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    text-align:left;
+    max-width: 80%;
+    box-sizing: border-box;
+    margin:  10px 0 0 0;
+}
+
+.form-main input {
+     background-color: rgb(241, 240, 240);
+     width: 100%;
+     margin: 5px 0;
+     border-radius: 6px;
+     border-style: none;
+    font-size: 0.7rem;
+    padding: 5px;
+}
+
+.box-form{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+}
+
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+  
+}
+/* I google how to change the style of checkbox, but it sill doesn't work very well */
+input[type="checkbox"]{
+    height:15px;
+    width: 40%;
+  
+    vertical-align: middle; line-height: 15px;position: relative;
+   
+    margin: 0;
+}
+input[type="checkbox"]::before{content: "";position: absolute;top: 0;left: 0;background: #fff;width: 90%;height: 90%;border: 0.5px solid black;
+    border-radius: 5px;    
+}
+
+input[type="checkbox"]:checked::before{content: "\2713";background-color: #fff;position: absolute;top: 0;left: 0;width:100%;border: 1px solid #424041;color:#615d5e;font-size: 20px;font-weight: bold;}
+
+
+/* Set the shape and size of the "dirver"button */
+.driver{
+    background-color: #57EEAB;
+    border-style: none;
+    border-radius: 6px;
+    padding: 5px 50px;
+    margin: 10px auto;
+    text-align: center;
+    font-family:'Montserrat', sans-serif ;
+    font-weight: 700;
+    font-size: 0.7rem;
+    
+}
+
+
+h3.p1{
+    
+    font-family:'Montserrat', sans-serif ;
+    font-size: 0.5rem;
+    margin: 0 0 10px 0;
+}
+a {
+   color: orangered;
+   text-decoration: none;
+   font-family:'Montserrat', sans-serif ;
+  
+}
+
+
+
+
+footer{
+    background-color:#FFFD8C ;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+footer input{    
+    background-color: white;
+    width: 100%;  
+    border-radius: 6px;
+    border-style: none;
+   font-size: 0.7rem;
+   padding: 5px; 
+
+}
+/* Make the hours and city in the same row, and  let them ratio to one to three  */
+ .hc{
+     margin:10px auto;
+     display: grid;
+    grid-template-columns:1fr 3fr;
+    grid-gap: 5px;
+ }
+ 
+
+ 
+.calculate{
+    border-style: none;
+    padding:5px 90px;
+    border-radius: 6px;
+    background-color: #FF8480;
+    font-family:'Montserrat', sans-serif ;
+    color: white;
+    margin: 10px auto;
+    font-size:0.7rem;
+    font-weight: bold;
+   
+ }
+
+
+
+footer .bottom{
+    margin: 0 10px;
+    
+}
+footer h2{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin: 0 5px 5px 5px;
+}
+footer h3{
+    font-size: 0.6rem;    
+    font-family:'Montserrat', sans-serif ;
+    margin: 0 5px 5px 5px;;
+}
+
+
+
+
+
+.icon{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin: 5px 20%;   
+}
+
+
+/* table version */
+
+@media screen and (min-width:375px) and (max-width:768px){
+    header h1{
+        font-size: 2.8rem;    
+    }
+
+    .bottom {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .form-wrap h3{
+       font-size: 1rem;
+    }
+
+    /*  make the padding on the greern button */
+    .driver{
+        padding: 5px 100px;
+       
+    }
+    
+    h3.p1{
+        font-size: 0.7rem;
+    }
+
+
+    /* make the hours,city and calculate in the same row */
+    .form-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+/* make the padding on the orange button */
+    .calculate{       
+        padding: 5px 60px;  
+    } 
+
+}
+
+
+
+/* Desktop version */
+@media screen and (min-width:768px){
+    /*make 100px margin on the buttom of the logo  */
+    .logo{
+        margin: 0px 20px 100px 20px;
+        max-width: 90px;
+    }
+    
+    .scooter{
+        display:none;    
+    }
+    /* set this scooter as background */
+    .top-body{       
+        background-image: url(images/bg-image/scooter.svg);       
+        background-repeat:no-repeat;
+        background-size: 50%;
+        height: 900px;
+        width:1920px;
+        background-position: center;
+    }
+
+    
+
+main.top-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+  
+}
+
+
+ header{
+     margin: 0 50px;
+ }
+
+section.form-wrap{
+    margin: 200px auto;
+    padding: 50px 0;
+}
+
+
+
+/*  transparentize the background color of section */
+section.top{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* change the font-size of all the words */
+
+header h1{  
+    font-size: 4rem;
+    text-align: left;
+    font-weight: 600;
+    margin:30px 20px;
+}
+
+header h2{
+    
+    font-size: 2rem;
+}
+.form-wrap h2{
+    font-size: 2.5rem;
+}
+.form-wrap h3{
+    font-size: 1.5rem;
+}
+
+
+
+
+h3.p1{
+    font-size: 0.8rem;
+}
+
+
+
+.form-main input{
+    font-size: 1rem;
+    padding: 15px;
+    margin:10px 0;
+}
+
+
+
+
+label{
+    font-size: 1rem;
+}
+button.driver{
+   
+    font-size: 1.3rem;
+        
+}
+
+
+footer{
+height:180px;
+width: 1920px;
+}
+
+footer input{
+    font-size: 1rem;
+}
+.calculate{
+    font-size: 1rem;    
+}
+
+/* make the boxes, button and icon in the same row*/
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+div.form-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.icon{
+    margin: 10px 35%;
+    padding: 10px;
+}
+
+footer h2{
+    font-size: 1rem;
+}
+footer h3{
+    font-size: 1rem;
+}
+
+footer input{
+    width: 80%;
+}
+.calculate{
+    padding: 10px 100px;
+}
+
+
+
+
+
+
+
+
+}
+
