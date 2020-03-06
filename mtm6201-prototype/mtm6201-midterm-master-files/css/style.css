@@ -1,0 +1,985 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+									/*Custom style */
+
+
+
+							 	/* Mobile version - Home Page */
+*{
+    box-sizing: border-box;
+}
+/* changed font family, color and line height in body */
+body{
+	font-family: 'Raleway', sans-serif;
+	color:#3C3B3A ;
+	line-height: 36px;	
+}
+
+header{
+    background-color:#3c3b3a;
+    width: 100%;
+	font-family: 'Raleway', sans-serif;
+	display:grid;
+	justify-content: center; 	
+}
+
+/* make the logo and navtation in the middle */
+.logo{   
+   margin:5px 110px ;
+}
+
+nav ul li a{
+    color: white;
+	text-decoration: none;	
+}
+.nav-bar{
+	display: grid;
+	justify-content: center;
+}
+
+/* make the home manue item bold */
+a.home{
+	font-weight: bold;
+}
+
+/* make the margin 20px 40px in section one,two,three and four  */
+.one,
+.two, 
+.four{
+	margin:20px 30px;
+}
+.one h1{
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 10px 0;
+}
+/* changed the font size, margin and line height of the frist paragraph */
+.one p{
+	font-size: 1.2rem;
+	margin: 10px 0;
+}
+
+/* rearrange icons into 2x2  */
+.four-icon{
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+	grid-template-rows: 1fr 1fr;
+	margin: 0;
+	text-align: center;
+}
+/* changed the icons color, size  */
+.four-icon i{
+	margin: 10px 40px;
+	font-size: 30px;
+	text-align: center;
+}
+/* Changed the color and fount size of the text below the icon  */
+.four-icon h3{
+	color: #26A682;
+	text-align: center;
+	margin: 10px 0;
+	font-size:1rem;
+	font-family: 'Raleway';
+	font-weight: 500;
+}
+
+/* make the noticeable animations on four icons*/
+#bowling,#hiking,#dubbell,#baskteball{
+	animation-name: swing;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-timing-function:ease-in-out;
+	animation-delay: 3s;
+}
+@keyframes swing {
+	0%,  100% { 
+	   border-radius: 50%; 
+	   transform-origin: 0 -50px; 
+	 }	 
+	 0% { 
+	   transform: rotate(20deg);
+	 }
+	 100% { 
+	   transform: rotate(-10deg);  
+	 }
+	 }
+	 
+/* changed the style of the first button */
+.one button{
+	background-color: #26A682;
+	border-radius: 50px;
+	width: 100%;
+	padding: 10px 0;
+	border-style: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5rem;
+	box-shadow: 2px 4px 6px 2px rgb(167, 165, 165);
+}
+
+
+
+/* add top margin above the imgage  */
+.discover{
+	display: block;
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+
+/* changed the font and size of h2 in section two and four */
+.two h2, .four  h2{
+	font-size: 32px;
+	font-style: italic;
+}
+/* changed the color and size of h3 in section two and four */
+.two h3, .four h3{
+	color:#26A682;
+	font-size: 24px;
+}
+/* changed the style of the The second and third buttons  */
+.two button, .four button{
+	background-color:#26A682 ;
+	border-radius: 20px;
+	box-shadow: 2px 4px 6px 2px rgb(167, 165, 165);
+	border-style: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;	
+}
+/* move the second and third buttons to the right and add 10px margin on the top */
+.learnmore{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 10px 0 0 0;
+}
+/* set the background color of section three, and also add the margin on the texts */
+.three{
+	background-color:#3c3b3a ;
+	color: white;
+	width: 100%;
+	padding: 10px;
+}
+
+img.simon{
+		border-radius: 50%;
+		margin: 10px 0 10px 20%;
+		justify-content: center;			
+}
+.three h3{
+	font-size: 24px;
+	margin:0 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.three p{
+	margin:0 30px ;
+}
+/* set the backgourd color and font color on the footer */
+footer{
+	background-color:#3c3b3a ;
+	color:white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+}
+.social {
+	font-size: 18px;
+	text-align: center;
+	margin: 10px 0;
+}
+.social i{	
+	margin-left: 5%;
+}
+
+/* make the icon and the text in the middle */
+.top-btn{	
+    bottom: 5px;
+	right:30px;
+	max-width: 20px;
+	text-decoration: none;
+}
+.top-btn img{
+	width: 22.3px;
+	margin: 5px auto;
+}
+
+/* changed the color of arrow icon */
+ i.fas.fa-arrow-circle-up::before{
+	color:#26A682;
+}
+
+/* changed the font family and size of Back To Top */
+.back{
+	color: white;	
+	font-size: 9px;
+	font-family: 'Raleway';
+}
+/* make the Scroll part disappear */
+.scroll{
+	display: none;
+}
+
+
+
+
+
+
+							 	/*  Mobile Version - About page */
+
+/* make all the paragraph in the same margin */
+.main{
+	margin: 10px 30px;
+}
+.container-what h1{
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 10px 0;
+}
+
+/* set the background image on the About part */
+.about-page{
+	background-image: url(../images/about.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 200px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;	
+}
+.about-page h1{
+	font-size: 50px;
+	color: white;	
+	text-align: center;
+	font-weight: bold;
+}
+.about-page div{
+	background: rgba(14, 85, 58, 0.74);
+}
+/* set a background color in three paragraphs */
+.www{
+	background-color: #F2F2F2;
+}
+.www h2{
+	font-size: 32px;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0px 30px;
+}
+.www p{
+	margin: 0 30px;
+}
+/* set the background image on the Services part, and use gird to make the text in the middle   */
+.services{
+	background-image: url(../images/services.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 200px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;	
+}
+/* add the background color on Services part */
+.services div{
+	background:  rgba(14, 85, 58, 0.74);
+}
+.services h1{
+	font-size: 50px;
+	color: white;	
+	text-align: center;
+	font-weight: bold;
+}
+/* make the image bar disappear  */
+.bar{
+	display: none;
+}
+
+
+/* set the font size of all the rest of the h2 */
+.need h2,.competitive h2,.new h2,.indoor h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+.need h3,.competitive h3,.new h3,.indoor h3{
+	font-size: 24px;
+	color:#26A682 ;
+}
+/* set a background color and margin in Competitive part */
+.competitive{
+	background-color:#F2F2F2 ;
+}
+.competitive h2,.competitive h3,.competitive p{
+	margin:  0 30px;
+}
+
+/* set a background color and make the button disappear */
+.subscribe{
+	background-color: #3c3b3a;
+}
+.subscribe button{
+	display: none;
+}
+/* set a background color and margin in Indoor climbing part */
+.indoor{
+	background-color: #F2F2F2;
+	margin: 0;
+}
+.indoor h2,.indoor h3,.indoor p{
+	margin:  0 30px;
+}
+.special h1{
+	font-size: 56px;
+	font-weight: bold;
+	line-height: 66px;
+	margin: 50px;
+	text-align: center;
+}
+
+
+.ac,.pcl,.cibc{
+	max-width: 70%;
+	margin: 10px auto;
+} 
+.brands{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	margin: 10px 30px;
+}
+
+
+
+									/* Mobile Version - Contact page */
+
+main{
+	margin: 10px 30px;
+	}
+
+/* changed the font size and line height in We-Want section */
+.we-want h1{
+	font-size: 50px;
+	line-height: 59px;
+	font-weight: bold;
+}
+.we-want p{
+	font-size: 20px;
+	line-height: 35px;
+}
+/* changed the form sytle  */
+
+.form-wrap{
+	background-color:#26A682 ;
+	border-radius: 30px;
+	box-shadow: 2px 4px 6px 2px rgb(167, 165, 165);
+}
+.form-main{
+	margin: 36px;
+}
+.form-wrap h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	margin: 10px 0;
+}
+.form-main h3{
+	font-size: 18px;
+	color: white;
+	line-height: 21px;
+	margin: 5px 0 ;
+}
+input{
+	width: 100%;
+	border-radius: 30px;
+	border-style: none;
+	margin: 5px 0;
+	padding: 10px;
+}
+ input#Message{
+	padding: 30px;
+	border-radius: 10px;
+}
+/* changed the Submit button style  */
+
+.bu-sub{
+	background-color: #3C3B3A;
+	border-style: none;
+	border-radius: 30px;
+	width: 100%;
+	margin: 10px auto;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	box-shadow: 2px 4px 6px 2px rgba(63, 61, 61, 0.815);
+}
+.our h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.our h2{
+	font-size: 24px;
+	line-height: 29px;
+}
+.our p{
+	font-size: 16px;
+	line-height: 35px;
+}
+							/* changed the font size of Learn More */
+.two button, .four button{
+	font-size: 27px;
+}
+
+									/* Tablet Version - Home */
+@media screen and (min-width:375px) and (max-width:768px){
+	/* changed the style of navigation */
+header{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+img.logo{
+	margin: 5px 60px;
+}
+nav ul li{
+	display: flex;
+	float: left;
+	width: 60%;
+	margin: 0 5px;	
+}
+.nav-bar{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: 200px;
+	justify-content:end;
+	align-content:center;
+	height: 70px;
+}
+
+.four-icon{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;	
+	grid-template-rows: none;
+	box-sizing: border-box;
+}
+.four-icon i{
+	margin: 10px 0;
+}
+
+/* make the Get Start button in the middle  */
+.one-button{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+/*make the simon president pargaph   */
+.three{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 10px;
+}
+
+img.simon{
+	width: 100%;
+}
+.three h3 {
+	margin: 0 0 0 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.dijanelle{
+	text-align: center;
+}
+
+										/*Tablet Version - About page  */
+
+/* make the content margin bigger */
+.container-what h1,.container-what p{
+	margin: 10px 30px;
+}
+.www div{
+	margin: 10px 30px;
+}
+
+
+
+/* Display the bar image in a grid with 1fr 2fr layout in Need section */
+.need{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 10px;
+	margin: 30px;
+}
+.bar{
+	background-image: url(../images/bar.jpg);
+	background-position:center;
+	background-size: cover;
+	display: inherit;
+	background-repeat:no-repeat;
+	margin: 10px 30px 10px 0;
+}
+
+
+/* Display the bowling image in a grid with 1fr 2fr layout in Competitive section */
+.competitive{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+.competitive div{
+	margin: 20px;
+}
+
+/* Display the Keep section in a grid with 1fr 8fr 1fr layout  */
+section.keep-up{
+		background-color:#3C3B3A;
+	}
+.keep-up{
+		display: grid;
+		grid-template-columns: 1fr 8fr 1fr;
+		width: 100%;
+	}
+.subscribe{
+		display: flex;
+		float: left;
+		width: 100%;
+		margin: 10px auto;
+	}	
+
+.subscribe h2{
+	color:white;
+	margin: 10px 0 10px 10px;
+}
+.subscribe button{
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #26A682;
+	border-radius: 50px;
+	border-style: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding: 5px;
+	margin: 10px 10px 10px 30px;
+}
+/* Display the fitness image in a grid with 1fr 2fr layout in the New section */
+.new{
+	display: grid;
+	grid-template-columns: 1fr 2fr;	
+}
+.new div{
+	margin: 10px;
+}
+div.fitness{
+	background-image: url(../images/fitness.jpg);
+	background-position:center;
+	background-size: cover;
+	display: inherit;
+}
+/* Display the climbing image in a grid with 2fr 1fr layout in the Indoor section */
+.climbing{
+	background-image: url(../images/climbing.jpg);
+	background-position:center;
+	background-size: cover;
+	display: block;
+	background-repeat: no-repeat;
+}
+.indoor{
+	display: grid;
+	grid-template-columns: 2fr 1fr;	
+}
+.indoor div{
+	margin: 10px;
+}
+							/* Tablet Verison - Contact page */
+/* make the Submit button ont the right*/
+#bu-sub{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+									/* Desktop Version - Home page */
+								
+@media screen and (min-width:768px){
+header{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+nav ul li{
+	display: flex;
+	float: left;
+	width: 60%;
+	margin: 0 5px;	
+}
+
+.nav-bar{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: 600px;
+	justify-content: end;
+	align-content: center;
+	height: 70px;
+}
+
+
+.logo{   
+	margin:5px 30px ;	 
+}	
+
+.desktop-one p {
+	margin: 30px;
+}
+
+
+/* make the scroll part in the desttop version */
+.fa-arrow-circle-down:before {
+	content: "\f0ab";
+	color: #26A682;
+	font-size: 40px;
+}
+/* make the animation on arrow icon */
+#arrow{
+	opacity:0.8;
+	transition:0.3s;
+    animation-name: jump;
+    animation-duration: 1s; 
+	animation-delay: 1s; 
+	animation-iteration-count:infinite;	
+}
+@keyframes jump {
+	50% { transform: translate(0, 50px); }
+  }
+
+#arrow:active{
+	transform:scale(1.5); 
+    transition:1s;
+}
+.scroll{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+.four-icon{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;	
+	grid-template-rows: none;
+	box-sizing: border-box;
+}
+.four-icon i{
+	margin: 10px 0;
+		}
+
+.desktop-one{
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-gap: 10px;
+}
+
+.one-button{
+	display: grid;
+	grid-template-columns: 1fr ;
+}
+
+img .discover{
+	max-width: 520px;
+	max-height: 520px;
+} 
+
+
+/* changed the font size and line height of Discover Your ARC */
+.one h1{
+	font-size: 65px;
+	line-height: 100px;
+}
+
+/* make the image in the middle  */
+.discover{
+	height: 100%;
+}
+
+
+picture{
+	display: none;
+}
+.dis_alg .school{
+	background-image: url(../images/school.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	display: inherit;
+}
+
+/* Set background color and evenly partition the contents  */
+.dis_alg{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color:#F2F2F2;
+}
+.school{
+	width: 90%;
+	height: 80%; 
+	margin: 30px;
+}
+
+.three{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-gap: 10px;
+}
+
+img.simon{
+	margin:30px 0 30px  3%;
+	max-width: 100%;
+}
+.three h3{
+	margin: 0;
+}
+
+.dijanelle{
+	display: flex;
+	float: left;
+}
+.ent{
+	background-image: url(../images/entertainment.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	display: inherit;
+	width: 90%;
+	height: 80%; 
+	margin: 30px;
+}
+/* use grid areas to flip the picture to the right   */
+.dis_enter{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"four ent";
+}
+.dis_enter .four{
+	grid-area:four;
+}
+.dis_enter .ent{
+	grid-area: ent;
+}
+
+img.entertainment{
+	width: 90%;
+	height: 80%; 
+	margin: 30px;
+}
+
+
+										/* Desttop version - About Page     */
+
+/* make the content margin bigger */
+.container-what h1,.container-what p{
+	margin: 10px 30px;
+}
+.www div{
+	margin: 10px 30px;
+}
+/* Display the image in a grid with 1fr 1fr layout */
+.bar{
+	display: block;
+	height: 100%;
+}	
+.need{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	margin: 30px;
+}
+/* Display the image in a grid with 1fr 1fr layout */
+.competitive{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.competitive div{
+	margin: 30px;
+}
+
+/* make the button and text in the same line */
+section.keep-up{
+	background-color:#3C3B3A;
+}
+.keep-up{
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	width: 100%;
+}
+.subscribe{
+	display: flex;
+	float: left;
+	width: 100%;
+	margin: 10px auto;
+}
+.subscribe h2{
+	color:white;
+	margin: 10px 30px;
+	text-align: center;
+}
+.subscribe button{
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #26A682;
+	border-radius: 50px;
+	border-style: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding: 5px;
+	margin: 10px 60px 10px 10px;
+}
+
+.bar{
+	background-image: url(../images/bar.jpg);
+	background-position:center;
+	background-size: cover;
+	display: inherit;
+	background-repeat:no-repeat;
+	margin: 10px 30px 10px 0;
+}
+.new{
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+}
+div.fitness{
+	background-image: url(../images/fitness.jpg);
+	background-position:center;
+	background-size: 100%;
+	display: inherit;
+	background-repeat:no-repeat;
+}
+/* Display the climbing image in a grid with 1fr 1fr layout in the Indoor section */
+.climbing{
+	background-image: url(../images/climbing.jpg);
+	background-position:center;
+	background-size: 100%;
+	display: block;
+	background-repeat: no-repeat;
+}
+.indoor{
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+}
+.indoor div{
+	margin: 10px;
+}
+
+/* align the brand logos horizontally */
+.brands{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+.sa{
+	margin: 70px auto;
+}
+
+							/* Destop Verison - Contact page */
+
+#bu-sub{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+/* Display the form in a grid with 1.5fr 1fr layout in the section We want */
+.we-want{
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	margin: 30px;
+	grid-gap: 30px;
+}
+
+/* make the map1 to disappear， and set the background image in div Map2 */
+.map1{
+	display: none;
+}
+.map2{
+	background-image: url(../images/map.png);
+	background-position:center;
+	background-size: cover;
+	display: inherit;
+	background-repeat:no-repeat;
+}
+/* Display the map in a grid with 1fr 1fr layout in the section Our Loacation  */
+.our-map{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 30px;
+}
+.ou1 h1{
+	line-height: 85px;
+}
+.our h2{
+	line-height: 47px;
+}
+.our p{
+	line-height: 35px;
+}
+
+
+
+}

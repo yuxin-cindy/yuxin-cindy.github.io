@@ -1,0 +1,8 @@
+
+/*  Changed the font of the navigation in Contact Page  */
+a.home{
+	font-weight: normal;
+}
+a.contact{
+    font-weight: bold;
+}

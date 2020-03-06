@@ -1,0 +1,19 @@
+
+/* Changed the font of the navigation in About page */
+a.home{
+	font-weight: normal;
+}
+a.about{
+	font-weight: bold;
+}
+/* Display the bowling image */
+div.bowling{
+	background-image: url(../images/bowling.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	display: inherit;
+	margin: 10px 30px 10px 0;
+}
+
+
