@@ -193,7 +193,7 @@ a.home{
 	border-style: none;
 	color: white;
 	font-weight: bold;
-	font-size: 15px;	
+	
 }
 /* move the second and third buttons to the right and add 10px margin on the top */
 .learnmore{
@@ -267,7 +267,10 @@ footer{
 .scroll{
 	display: none;
 }
-
+/* changed the font size of Learn More */
+.two button, .four button{
+	font-size: 20px;
+}
 
 
 
@@ -397,6 +400,7 @@ footer{
 
 
 
+
 									/* Mobile Version - Contact page */
 
 main{
@@ -471,10 +475,7 @@ input{
 	font-size: 16px;
 	line-height: 35px;
 }
-							/* changed the font size of Learn More */
-.two button, .four button{
-	font-size: 27px;
-}
+
 
 									/* Tablet Version - Home */
 @media screen and (min-width:375px) and (max-width:768px){
@@ -485,23 +486,17 @@ header{
 }
 
 img.logo{
-	margin: 5px 60px;
+	margin: 5px 0 5px 60px;
+}
+.nav{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
 }
 nav ul li{
 	display: flex;
 	float: left;
-	width: 60%;
-	margin: 0 5px;	
+	margin: 20px 0 20px 20px;	
 }
-.nav-bar{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	margin-left: 200px;
-	justify-content:end;
-	align-content:center;
-	height: 70px;
-}
-
 .four-icon{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;	
@@ -511,14 +506,11 @@ nav ul li{
 .four-icon i{
 	margin: 10px 0;
 }
-
 /* make the Get Start button in the middle  */
 .one-button{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
-
-
 
 /*make the simon president pargaph   */
 .three{
@@ -539,6 +531,10 @@ img.simon{
 .dijanelle{
 	text-align: center;
 }
+/* changed the font size of Learn More */
+.two button, .four button{
+	font-size: 27px;
+}
 
 										/*Tablet Version - About page  */
 
@@ -549,8 +545,6 @@ img.simon{
 .www div{
 	margin: 10px 30px;
 }
-
-
 
 /* Display the bar image in a grid with 1fr 2fr layout in Need section */
 .need{
@@ -567,7 +561,6 @@ img.simon{
 	background-repeat:no-repeat;
 	margin: 10px 30px 10px 0;
 }
-
 
 /* Display the bowling image in a grid with 1fr 2fr layout in Competitive section */
 .competitive{
@@ -665,20 +658,16 @@ header{
 	display: grid;
 	grid-template-columns: 1fr;
 }
+.nav{
+	display: grid;
+	grid-template-columns: 1fr 0.7fr;
+}
 nav ul li{
 	display: flex;
 	float: left;
-	width: 60%;
-	margin: 0 5px;	
-}
+	margin: 20px 20px 20px 20px;
 
-.nav-bar{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	margin-left: 600px;
-	justify-content: end;
-	align-content: center;
-	height: 70px;
+	
 }
 
 
@@ -687,8 +676,9 @@ nav ul li{
 }	
 
 .desktop-one p {
-	margin: 30px;
+	margin: 30px 0 ;
 }
+
 
 
 /* make the scroll part in the desttop version */
