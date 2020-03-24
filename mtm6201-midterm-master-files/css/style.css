@@ -307,6 +307,9 @@ footer{
 .about-page div{
 	background: rgba(14, 85, 58, 0.74);
 }
+.www div{
+	padding: 20px 0;
+}
 /* set a background color in three paragraphs */
 .www{
 	background-color: #F2F2F2;
@@ -358,6 +361,7 @@ footer{
 /* set a background color and margin in Competitive part */
 .competitive{
 	background-color:#F2F2F2 ;
+	padding: 10px 0;
 }
 .competitive h2,.competitive h3,.competitive p{
 	margin:  0 30px;
@@ -374,6 +378,7 @@ footer{
 .indoor{
 	background-color: #F2F2F2;
 	margin: 0;
+	padding: 10px 0;
 }
 .indoor h2,.indoor h3,.indoor p{
 	margin:  0 30px;
@@ -542,9 +547,6 @@ img.simon{
 .container-what h1,.container-what p{
 	margin: 10px 30px;
 }
-.www div{
-	margin: 10px 30px;
-}
 
 /* Display the bar image in a grid with 1fr 2fr layout in Need section */
 .need{
@@ -633,14 +635,6 @@ div.fitness{
 .indoor div{
 	margin: 10px;
 }
-
-.ac,.pcl,.cibc{
-	max-width: 40%;
-} 
-.brands{
-	margin: 20px 50px;
-}
-
 							/* Tablet Verison - Contact page */
 /* make the Submit button ont the right*/
 #bu-sub{
@@ -836,8 +830,10 @@ img.entertainment{
 	margin: 10px 30px;
 }
 .www div{
-	margin: 10px 30px;
+	padding: 20px;
 }
+
+
 /* Display the image in a grid with 1fr 1fr layout */
 .bar{
 	display: block;
@@ -903,19 +899,21 @@ section.keep-up{
 .new{
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
+	grid-gap: 10px;
 }
+
 div.fitness{
 	background-image: url(../images/fitness.jpg);
 	background-position:center;
-	background-size: 100%;
-	display: inherit;
-	background-repeat:no-repeat;
+	background-size: cover;
+	display: block;
+	background-repeat: no-repeat;
 }
 /* Display the climbing image in a grid with 1fr 1fr layout in the Indoor section */
 .climbing{
 	background-image: url(../images/climbing.jpg);
 	background-position:center;
-	background-size: 100%;
+	background-size: cover;
 	display: block;
 	background-repeat: no-repeat;
 }
