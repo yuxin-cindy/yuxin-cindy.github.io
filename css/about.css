@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+                                    /*Custom style */
+                                    /* About page- moblie verion */
+body{
+font-family: 'Raleway', sans-serif;
+	color:#3C3B3A ;
+}
+
+
+ header{
+    background-image: url(../img/bg-2.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 430px;
+	padding: 20px 0 40px 0;
+	box-shadow: 4px 6px 6px 2px rgba(65, 58, 57, 0.815);
+	
+}
+.navigation{
+	display: grid;
+	justify-content: center;
+}
+.logo{
+	width:70px;
+	padding: 0 17px;
+	
+}
+nav ul li a{
+    color: white;
+	text-decoration: none;	
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+	line-height: 20px;
+	display: block;
+	font-weight: 600;
+}
+
+nav a:hover,
+nav a.active{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration-line: underline;
+}
+
+
+
+main{
+	margin: 30px;
+}
+.me{
+	width: 70%;
+	border-radius: 50%;
+	margin: 30px 15%;
+	box-shadow: 4px 6px 6px 2px rgba(65, 58, 57, 0.815);
+}
+main h2{
+	font-size: 25px;
+	font-weight: bold;
+	display: grid;
+	justify-content: center;
+	margin: 30px 0;
+}
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 50px;
+}
+p{
+	line-height: 30px;
+}
+
+
+
+
+.footer{
+	background-image: url(../img/f2.jpg);
+	background-position:center;
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 1fr 5fr 2fr;
+	color: white;	
+}
+footer .logo{
+	width:20px;
+}
+footer div{
+	margin:20px 0;
+	font-size: 10px;
+	
+}
+footer .social{
+	margin: 10px 0;
+}
+.im-twitter:before,.im-instagram:before{
+	font-size: 17px;
+	margin: 0 4px;
+}
+	  								 /* Table Version- About page */
+@media screen and (min-width:450px) and (max-width:768px){
+	.navigation{
+		display: grid;
+		grid-template-columns:2fr 6fr;
+	
+	}
+	
+	div .navigation{
+		padding: 400px;
+	}
+	nav ul{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	.logo{
+		width:50px;
+		margin-left: 30%;
+	}
+	.home,
+	.about,
+	.portfolio{
+		border-right: 1px solid white;	
+	}
+	nav ul li a{
+		font-size: 15px;
+	}
+	nav a:hover,
+	nav a.active{
+		font-size: 23px;
+	}
+	.contact{
+		margin-bottom: 200px;
+	}
+
+
+	footer .logo{
+	width:25px;
+	margin: 0 0 0 30px;
+}
+footer div{
+	margin:18px 0;
+	font-size: 15px;	
+}
+footer .social{
+	margin: 18px 0;
+}
+.im-twitter:before,.im-instagram:before{
+	font-size: 18px;
+	margin: 0 5px;
+}
+	
+}	   
+						/* Desktop Version  */
+@media screen and (min-width:768px){
+	.navigation{
+		display: grid;
+		grid-template-columns:2fr 6fr;
+	
+	}
+	
+	nav ul{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 5px;
+	}
+	
+	.logo{
+		width:50px;
+		margin-left: 30%;
+
+	}
+	.home,
+	.about,
+	.portfolio{
+		border-right: 1px solid white;	
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	nav a:hover,
+	nav a.active{
+		font-size: 25px;
+	}
+	.contact{
+		margin-bottom: 200px;
+	}
+/* diplay the content like 1fr 1fr 1fr */
+	main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.education {
+margin-top: 40px;
+}
+.tools{
+	margin-top: 30px;
+}
+
+
+	
+footer .logo{
+	width:30px;
+	margin: 0 0 0 50px;
+}
+footer div{
+	margin:20px 0;
+	font-size: 20px;	
+	}
+footer .social{
+	margin: 25px 0;
+}
+.im-twitter:before,.im-instagram:before{
+	font-size: 25px;
+	margin: 0 20px;
+	}	
+}
