@@ -125,6 +125,7 @@ nav a.active{
 	text-align: left;
 	font-size: 21px;
 	font-weight: bold;
+	margin: 0 0 0 -20px;
 }
 .graphics{
 	background-image: url(../img/graphic.jpg);
