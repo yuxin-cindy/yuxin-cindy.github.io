@@ -100,7 +100,9 @@ table {
 	}
 	.one h3{
 		margin: 20px 0;
+		line-height: 30px;
 	}
+	
 	button{
 		border-style: hidden;
 		border-radius: 50px;
@@ -228,7 +230,7 @@ table {
 	}
 
 	.one h3{
-		font-size: 25px;
+		font-size: 22px;
 	}
 	button{
 		font-size: 18px;
@@ -316,6 +318,7 @@ table {
 }
 .a .p{
 	margin-top: 30px;
+	line-height: 28px;
 }
 .avatar{
 	margin:5% 0;
