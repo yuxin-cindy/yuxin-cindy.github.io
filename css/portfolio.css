@@ -51,18 +51,18 @@ table {
                                     	/*Custom style */
                                     /* portfolio page- moblie verion */
 	body{
-	font-family: 'Raleway', sans-serif;
+		font-family: 'Josefin Sans', sans-serif;
 		color:#3C3B3A ;
 	}
 
 	/* set a background image and add shadow  */
 	header{
 		background-image: url(../img/b11.jpg);
-		background-position: center;
+		background-position:center;
 		background-repeat:no-repeat;
-		height: 430px;
+		background-size: cover; 
 		padding: 20px 0 40px 0;
-		background-size: cover;	
+		height: 430px;
 		box-shadow: 4px 6px 6px 2px rgba(0, 0, 0, 0.918);
 		
 	}
@@ -72,30 +72,34 @@ table {
 	}
 	.logo{
 		width:70px;
-		padding: 0 17px;
+		padding: 0 35px;
 		box-shadow: none;
 		
 	}
 	nav ul li a{
 		color: white;
 		text-decoration: none;	
-		font-size: 15px;
+		text-shadow: black 0.1em 0.1em 0.2em;
+		font-size: 17px;
 		text-align: center;
 		padding: 10px;
 		line-height: 20px;
 		display: block;
-		font-weight: 600;
+		color: rgb(254, 254, 255);
+	  
 	}
 
 	nav a:hover,
 	nav a.active{
-		font-weight: bold;
 		font-size: 16px;
 		line-height: 20px;
 		text-decoration-line: underline;
 	}
 	main{
 		margin: 30px;
+	}
+	.one h3{
+		margin: 20px 0;
 	}
 	button{
 		border-style: hidden;
@@ -117,29 +121,74 @@ table {
 	img{
 		box-shadow: 4px 6px 6px 2px rgba(88, 81, 80, 0.815);
 	}
+	.web{
+		margin: 20px 0;
+		display: grid;
+		grid-gap: 30px;
+	
+	}
+
+	.website1{
+	background-image: url(../img/web.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr ;
+	}
+	.website1 h1, .vid h1{
+		font-size: 40px;
+		color: rgba(253, 253, 253, 0.767);	
+		text-align: center;
+		font-weight: bold;
+		text-shadow: rgba(78, 75, 74, 0.815) 0.1em 0.1em 0.2em;
+	}
+	
+	.website1 h1:hover,.vid h1:hover{
+		color: rgba(42, 49, 49, 0.801);	
+		background: rgba(206, 216, 216, 0.637);
+		text-shadow: rgba(84, 99, 86, 0.815) 0.1em 0.1em 0.2em;
+	}
+	/* .website1 div{
+		background: rgba(159, 165, 164, 0.473);
+		
+	} */
+	.vid{
+		background-image: url(../img/video.PNG);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size: 100%;
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+
+
 
 	.footer{
 		background-image: url(../img/f3.jpg);
 		background-position:center;
 		background-size: cover;
 		display: grid;
-		grid-template-columns: 1fr 5fr 2fr;
-		color: white;	
+		grid-template-columns: 1fr 7fr;
+		color: white;
+		line-height: 20px;
+
 	}
 	footer .logo{
 		width:20px;
 	}
 	footer div{
 		margin:20px 0;
-		font-size: 10px;	
+		font-size: 13px;	
 	}
-	footer .social{
-		margin: 10px 0;
+	a {
+		color: white;
+		text-decoration:none;    
 	}
-	.im-twitter:before,.im-instagram:before{
-		font-size: 17px;
-		margin: 0 4px;
-}
+	footer a:hover{
+		text-decoration-line: underline;
+	}
+
  								/* Table Version- portfolio page */
 @media screen and (min-width:450px) and (max-width:768px){
 	.navigation{
@@ -163,10 +212,8 @@ table {
 		border-right: 1px solid white;	
 	}
 	nav ul li a{
-		font-size: 20px;
-		
-	
-	}
+        font-size: 15px;
+    }
 	.contact{
 		margin-bottom: 200px;
 	}
@@ -177,14 +224,11 @@ table {
 	
 	nav a:hover,
 	nav a.active{
-		font-size: 23px;
+		font-size: 21px;
 	}
-	.one{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr;
-		grid-gap: 5%;
-		margin: 10px;
+
+	.one h3{
+		font-size: 25px;
 	}
 	button{
 		font-size: 18px;
@@ -266,16 +310,41 @@ table {
 		margin-bottom: 200px;
 	}
 
-	.one{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr;
-		grid-gap: 5%;
-		margin: 10px;
+.a{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.a .p{
+	margin-top: 30px;
+}
+.avatar{
+	margin:5% 0;
+	height: 500px;
+}
+.one h3{
+	margin: 80px 30px 30px 30px;
+}
+.web{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	margin-bottom: 70px;
+}
+.web h1{
+	font-size: 100px;
+}
+
+
+
+	.one h3{
+		font-size: 23px;
 	}
 	button{
 		font-size: 18px;
 		padding: 5px;
+	}
+	.one {
+		border-bottom: 1px solid rgba(172, 164, 163, 0.815); 
 	}
 	/* display the imanges in grid */
 	.two{
@@ -283,7 +352,7 @@ table {
 			grid-template-columns: 1fr 1fr ;
 			grid-template-rows: 1fr 2fr;
 			grid-template-areas:
-					"cake ride "
+					"ride cake "
 					"night night ";
 		margin-top: 110px;
 	}
@@ -308,12 +377,10 @@ table {
 	footer div{
 		margin:20px 0;
 		font-size: 20px;	
-		}
-	footer .social{
-		margin: 25px 0;
 	}
-	.im-twitter:before,.im-instagram:before{
-		font-size: 25px;
-		margin: 0 20px;
-		}	
+	.text{
+			display: grid;
+		   grid-template-columns: 1fr 1fr; 
+		   grid-gap: 10px;      
+	}	
 }

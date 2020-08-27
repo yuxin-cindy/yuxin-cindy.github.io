@@ -51,7 +51,7 @@ table {
                                     /*Custom style */
                                     /* About page- moblie verion */
 body{
-font-family: 'Raleway', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color:#3C3B3A ;
 }
 
@@ -72,7 +72,7 @@ font-family: 'Raleway', sans-serif;
 }
 .logo{
 	width:70px;
-	padding: 0 17px;
+	padding: 0 35px;
 	
 }
 nav ul li a{
@@ -83,7 +83,7 @@ nav ul li a{
 	padding: 10px;
 	line-height: 20px;
 	display: block;
-	font-weight: 600;
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 nav a:hover,
@@ -104,22 +104,25 @@ main{
 	border-radius: 50%;
 	margin: 30px 15%;
 	box-shadow: 4px 6px 6px 2px rgba(65, 58, 57, 0.815);
+	max-width: 270px;
 }
 main h2{
 	font-size: 25px;
-	font-weight: bold;
 	display: grid;
 	justify-content: center;
 	margin: 30px 0;
+	font-family: 'Caveat', cursive;
+	text-shadow: rgba(187, 182, 180, 0.815) 0.1em 0.1em 0.2em;
 }
 h1{
 	font-size: 30px;
 	font-weight: bold;
-	font-style: italic;
 	line-height: 50px;
+
 }
-p{
-	line-height: 30px;
+main p{
+	line-height: 28px;
+	
 }
 
 
@@ -130,24 +133,26 @@ p{
 	background-position:center;
 	background-size: cover;
 	display: grid;
-	grid-template-columns: 1fr 5fr 2fr;
-	color: white;	
+	grid-template-columns: 1fr 7fr ;
+	color: white;
+	line-height: 20px;
+	
 }
 footer .logo{
-	width:20px;
+	width:25px;
 }
 footer div{
 	margin:20px 0;
-	font-size: 10px;
-	
+	font-size: 13px;	
 }
-footer .social{
-	margin: 10px 0;
+a {
+    color: white;
+    text-decoration:none;    
 }
-.im-twitter:before,.im-instagram:before{
-	font-size: 17px;
-	margin: 0 4px;
+footer a:hover{
+    text-decoration-line: underline;
 }
+
 	  								 /* Table Version- About page */
 @media screen and (min-width:450px) and (max-width:768px){
 	.navigation{
@@ -174,17 +179,29 @@ footer .social{
 		border-right: 1px solid white;	
 	}
 	nav ul li a{
-		font-size: 15px;
+		font-size: 18px;
 	}
 	nav a:hover,
 	nav a.active{
-		font-size: 23px;
+		font-size: 20px;
 	}
 	.contact{
 		margin-bottom: 200px;
 	}
-
-
+.me{
+	margin: 30px 25%;
+}
+.personal h2{
+	font-size: 35px;
+	line-height:50px;
+	margin-top: 50px;	
+	margin-right: 20px;
+}
+.personal p{
+	font-size: 20px;
+	line-height: 33px;
+	margin-right: 20px;
+}
 	footer .logo{
 	width:25px;
 	margin: 0 0 0 30px;
@@ -236,34 +253,43 @@ footer .social{
 	.contact{
 		margin-bottom: 200px;
 	}
-/* diplay the content like 1fr 1fr 1fr */
+	.me{
+		margin-top: 90px;
+	}
+
 	main{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 2fr;
 	grid-gap: 10px;
 }
-.education {
-margin-top: 40px;
+.personal h2{
+	font-size: 40px;
+	line-height:60px;
+	margin-top: 50px;	
+	margin-right: 20px;
 }
-.tools{
-	margin-top: 30px;
+.personal p{
+	font-size: 25px;
+	line-height: 38px;
+	margin-right: 20px;
 }
-
+.text{
+	display: grid;
+   grid-template-columns: 1fr 1fr; 
+   grid-gap: 10px;        
+}
 
 	
 footer .logo{
-	width:30px;
-	margin: 0 0 0 50px;
+    width:30px;
+    margin: 0 0 0 50px;
 }
 footer div{
-	margin:20px 0;
-	font-size: 20px;	
-	}
-footer .social{
-	margin: 25px 0;
+    margin:20px 0;
+    font-size: 19px;	
+    }
+
+.text h2{
+    margin-top: 5px;
 }
-.im-twitter:before,.im-instagram:before{
-	font-size: 25px;
-	margin: 0 20px;
-	}	
 }
