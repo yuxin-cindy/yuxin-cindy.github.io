@@ -138,7 +138,7 @@ table {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr ;
 	}
-	.website1 h1, .vid h1{
+	.website1 h1, .vid h1, .ux h1{
 		font-size: 40px;
 		color: rgba(253, 253, 253, 0.767);	
 		text-align: center;
@@ -146,7 +146,7 @@ table {
 		text-shadow: rgba(78, 75, 74, 0.815) 0.1em 0.1em 0.2em;
 	}
 	
-	.website1 h1:hover,.vid h1:hover{
+	.website1 h1:hover,.vid h1:hover, .ux h1:hover{
 		color: rgba(42, 49, 49, 0.801);	
 		background: rgba(206, 216, 216, 0.637);
 		text-shadow: rgba(84, 99, 86, 0.815) 0.1em 0.1em 0.2em;
@@ -163,7 +163,16 @@ table {
 		display: grid;
 		grid-template-rows: 1fr 1fr 1fr;
 	}
-
+	.ux{
+		background-image: url(../img/ux.PNG);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size: 100%;
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		text-align: center;
+	
+	}
 
 
 	.footer{
@@ -330,7 +339,7 @@ table {
 }
 .web{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 30px;
 	margin-bottom: 70px;
 }
