@@ -147,9 +147,10 @@ table {
 	}
 	
 	.website1 h1:hover,.vid h1:hover, .ux h1:hover{
-		color: rgba(42, 49, 49, 0.801);	
+		color: rgba(49, 61, 61, 0.918);	
 		background: rgba(206, 216, 216, 0.637);
-		text-shadow: rgba(84, 99, 86, 0.815) 0.1em 0.1em 0.2em;
+		text-shadow: rgba(194, 204, 195, 0.815) 0.1em 0.1em 0.2em;
+	
 	}
 	/* .website1 div{
 		background: rgba(159, 165, 164, 0.473);
