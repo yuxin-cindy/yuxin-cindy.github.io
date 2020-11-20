@@ -74,6 +74,7 @@ header{
 /* make the logo and navtation in the middle */
 .logo{   
    margin:5px 110px ;
+   display: block;
 }
 
 nav ul li a{
@@ -83,6 +84,7 @@ nav ul li a{
 .nav-bar{
 	display: grid;
 	justify-content: center;
+	
 }
 
 /* make the home manue item bold */
@@ -230,6 +232,7 @@ footer{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
+	text-align: center;
 }
 .social {
 	font-size: 18px;
@@ -255,17 +258,24 @@ footer{
 /* changed the color of arrow icon */
  i.fas.fa-arrow-circle-up::before{
 	color:#26A682;
+	font-size: 13px;
+	
+	
 }
 
 /* changed the font family and size of Back To Top */
 .back{
 	color: white;	
-	font-size: 9px;
-	font-family: 'Raleway';
+	font-size:12px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 100;
 }
 /* make the Scroll part disappear */
 .scroll{
 	display: none;
+	text-align: center;
 }
 /* changed the font size of Learn More */
 .two button, .four button{
@@ -424,19 +434,22 @@ main{
 }
 /* changed the form sytle  */
 
+
 .form-wrap{
 	background-color:#26A682 ;
 	border-radius: 30px;
 	box-shadow: 2px 4px 6px 2px rgb(167, 165, 165);
+	
 }
 .form-main{
 	margin: 36px;
 }
 .form-wrap h2{
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: bold;
 	color: white;
 	margin: 10px 0;
+	text-align: center;
 }
 .form-main h3{
 	font-size: 18px;
@@ -773,25 +786,34 @@ picture{
 	height: 80%; 
 	margin: 30px;
 }
-
+.two button, .four button{
+	font-size: 30px;
+}
 .three{
 	display: grid;
-	grid-template-columns: 1fr 1fr ;
-	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;	
+	
 }
 
-img.simon{
-	margin:30px 0 30px  3%;
-	max-width: 100%;
+ img.simon{
+	margin:0 40%;
+	max-width: 90%;
 }
+.three p {
+	margin-top: 5%;
+}
+
 .three h3{
 	margin: 0;
 }
-
-.dijanelle{
-	display: flex;
-	float: left;
+.President{
+	display: grid;
+	grid-column: 1fr 1fr 1fr;
 }
+.President h3{
+	text-align: center;
+}
+
 .ent{
 	background-image: url(../images/entertainment.jpg);
 	background-position:center;
