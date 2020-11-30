@@ -55,6 +55,11 @@ table {
 		color:#3C3B3A ;
 	}
 
+	html {
+		scroll-behavior: smooth;
+	}
+
+
 	/* set a background image and add shadow  */
 	header{
 		background-image: url(../img/b11.jpg);
