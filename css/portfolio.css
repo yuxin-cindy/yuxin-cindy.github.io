@@ -98,6 +98,15 @@ table {
 	main{
 		margin: 30px;
 	}
+	/* bg color on section one */
+	.one .a {
+		/* background: rgba(226, 235, 236, 0.738); */
+		background: linear-gradient(to right,rgb(255, 255, 255), rgb(219, 230, 234));
+	}
+
+
+
+
 	.one h3{
 		margin: 20px 0;
 		line-height: 30px;
@@ -342,6 +351,21 @@ table {
 	height: 500px;
 }
 
+	/* add the margin of graphic amd text */
+	img.avatar{
+		margin: 30px 30px 30px 30px;
+	}
+
+	div.p{
+		margin: 30px 30px 30px 30px;
+	}
+
+	img.icon{
+		margin: 30px 30px 30px 30px;
+	} 
+
+
+
 .one h3{
 	margin: 80px 30px 30px 30px;
 }
@@ -365,8 +389,12 @@ table {
 		padding: 5px;
 	}
 	.one {
-		border-bottom: 1px solid rgba(172, 164, 163, 0.815); 
+		border-bottom: 2px solid rgba(172, 164, 163, 0.815); 
 	}
+	div.web{
+		margin: 0px 0px 110px 0px;
+	}
+
 	/* display the imanges in grid */
 	.two{
 		display: grid;
