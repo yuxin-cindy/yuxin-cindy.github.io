@@ -139,17 +139,18 @@ table {
 	grid-template-rows: 1fr 1fr 1fr ;
 	}
 	.website1 h1, .vid h1, .ux h1,.cms h1{
-		font-size: 40px;
-		color: rgba(253, 253, 253, 0.767);	
+		font-size: 30px;
+		color: rgba(253, 253, 253, 0.808);	
 		text-align: center;
 		font-weight: bold;
 		text-shadow: rgba(78, 75, 74, 0.815) 0.1em 0.1em 0.2em;
 	}
 	
 	.website1 h1:hover,.vid h1:hover, .ux h1:hover,.cms h1:hover{
-		color: rgba(228, 238, 238, 0.801);	
-		background: rgba(206, 216, 216, 0.114);
-		text-shadow: rgba(63, 68, 63, 0.815) 0.1em 0.1em 0.2em;
+		color: rgb(238, 244, 246);	
+		background: rgba(208, 213, 213, 0.181);
+		text-shadow: rgba(58, 61, 59, 0.886) 0.1em 0.2em 0.3em;
+		
 	}
 	/* .website1 div{
 		background: rgba(159, 165, 164, 0.473);
@@ -174,7 +175,7 @@ table {
 		text-align: center;	
 	}
 	.cms{
-		background-image: url(../img/cms.png);
+		background-image: url(../img/cms.PNG);
 		background-position:center;
 		background-repeat:no-repeat;
 		background-size: 100%;
@@ -205,9 +206,6 @@ table {
 	}
 	footer a:hover{
 		text-decoration-line: underline;
-	}
-	html {
-		scroll-behavior: smooth;
 	}
 
  								/* Table Version- portfolio page */
@@ -399,15 +397,12 @@ table {
 	}
 	footer div{
 		margin:20px 0;
-		font-size: 19px;	
+		font-size: 20px;	
 	}
 	.text{
-		   display: grid;
-		   grid-template-columns: 1fr 1fr; 
-		   grid-gap: 10px;      
+		display: grid;
+		grid-template-columns: 1fr 1fr; 
+		grid-gap: 40px;   
+		margin: 25px 0 0 0;   
 	}	
-	.text h2{
-		margin-top: 5px;
-	}
-
 }
