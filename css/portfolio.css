@@ -100,8 +100,7 @@ table {
 	}
 	/* bg color on section one */
 	.one .a {
-		/* background: rgba(226, 235, 236, 0.738); */
-		background: linear-gradient(to right,rgb(255, 255, 255), rgb(219, 230, 234));
+		background: linear-gradient(rgb(255,255,255), rgb(219,230,234));
 	}
 
 
@@ -258,6 +257,11 @@ table {
 	.one h3{
 		font-size: 22px;
 	}
+
+	.one .a {
+		background: linear-gradient(rgb(255,255,255), rgb(219,230,234));
+	}
+
 	button{
 		font-size: 18px;
 		padding: 5px;
@@ -364,6 +368,9 @@ table {
 		margin: 30px 30px 30px 30px;
 	} 
 
+	.one .a {
+		background: linear-gradient(to right,rgb(255, 255, 255), rgb(219, 230, 234));
+	}
 
 
 .one h3{
