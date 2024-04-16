@@ -99,9 +99,9 @@ table {
 		margin: 30px;
 	}
 	/* bg color on section one */
-	.one .a {
+	/* .one .a {
 		background: linear-gradient(rgb(255,255,255), rgb(219,230,234));
-	}
+	} */
 
 
 
@@ -267,9 +267,6 @@ table {
 		font-size: 22px;
 	}
 
-	.one .a {
-		background: linear-gradient(rgb(255,255,255), rgb(219,230,234));
-	}
 
 	button{
 		font-size: 18px;
@@ -353,7 +350,9 @@ table {
 
 .a{
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 0 30px 0 0 ;
+	gap: 3%;
 }
 
 .b{
@@ -386,9 +385,9 @@ table {
 		margin: 30px 30px 30px 30px;
 	} 
 
-	.one .a {
+	/* .one .a {
 		background: linear-gradient(to right,rgb(255, 255, 255), rgb(219, 230, 234));
-	}
+	} */
 
 
 .one h3{
