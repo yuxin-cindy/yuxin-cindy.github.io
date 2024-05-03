@@ -71,7 +71,7 @@ body{
 }
 .logo{
 	width:70px;
-	padding: 0 35px;
+    padding: 0 35px;
 }
 nav ul li a{
 	color: white;
@@ -218,6 +218,7 @@ nav ul{
 
 .logo{
 	width:50px;
+	margin-left: 30%;
 }
 .home,
 .about,
@@ -281,6 +282,7 @@ footer .social{
 	
 	.logo{
 		width:50px;
+		margin-left: 30%;
 	}
 .home,
 .about,
