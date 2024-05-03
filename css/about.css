@@ -89,7 +89,7 @@ nav ul li a{
 nav a:hover,
 nav a.active{
 	/* font-weight: bold; */
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 20px;
 	/* text-decoration-line: underline; */
 }
@@ -223,7 +223,7 @@ footer .social{
 @media screen and (min-width:768px){
 	.navigation{
 		display: grid;
-		grid-template-columns:2fr 6fr;
+		grid-template-columns:4fr 6fr;
 	
 	}
 	
@@ -235,7 +235,7 @@ footer .social{
 	
 	.logo{
 		width:50px;
-		margin-left: 30%;
+		margin-left: 20%;
 
 	}
 	.home,
@@ -248,7 +248,7 @@ footer .social{
 	}
 	nav a:hover,
 	nav a.active{
-		font-size: 25px;
+		font-size: 23px;
 	}
 	.contact{
 		margin-bottom: 200px;

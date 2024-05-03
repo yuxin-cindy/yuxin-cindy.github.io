@@ -63,7 +63,7 @@ body{
 	background-size: cover; 
 	padding: 20px 0 40px 0;
 	height: 430px;
-	box-shadow: 4px 6px 6px 2px rgba(0, 0, 0, 0.918);
+	box-shadow: 4px 6px 6px 2px rgba(65, 58, 57, 0.815);
 }
 .navigation{
 	display:grid;
@@ -190,7 +190,7 @@ footer a:hover{
  @media screen and (min-width:450px) and (max-width:768px){
     .navigation{
         display: grid;
-        grid-template-columns:2fr 6fr;
+        grid-template-columns:1fr 6fr;
     
     }
     
@@ -225,7 +225,7 @@ footer a:hover{
     
     nav a:hover,
     nav a.active{
-        font-size: 23px;
+        font-size: 20px;
     }
     
     button{
@@ -246,7 +246,7 @@ footer a:hover{
 @media screen and (min-width:768px){
     .navigation{
 		display: grid;
-		grid-template-columns:2fr 6fr;
+		grid-template-columns:4fr 6fr;
 	}
 	
 	nav ul{
@@ -257,7 +257,7 @@ footer a:hover{
 	
 	.logo{
 		width:50px;
-		margin-left: 30%;
+		margin-left: 20%;
 	}
 
 	.home,
@@ -270,7 +270,7 @@ footer a:hover{
 	}
 	nav a:hover,
 	nav a.active{
-		font-size: 25px;
+		font-size: 23px;
 	}
 	.contact{
 		margin-bottom: 200px;
