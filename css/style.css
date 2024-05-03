@@ -89,7 +89,7 @@ nav a.active{
 	/* font-weight: bold; */
 	font-size: 16px;
 	line-height: 20px;
-	text-shadow: rgba(29, 29, 29, 0.889) 0.2em 0.2em 0.2em;
+	text-shadow: rgba(44, 44, 44, 0.889) 0.2em 0.2em 0.2em;
 	/* text-decoration-line: underline; */
 }
 
@@ -110,7 +110,7 @@ nav a.active{
 }
 a.cms:hover, a.por:hover{
 	font-size:23px ;
-	text-decoration-line: underline;
+	/* text-decoration-line: underline; */
 	color: rgb(105, 102, 102);
 
 }
@@ -312,8 +312,7 @@ a.cms, a.por{
 }
 a.cms:hover, a.por:hover{
 	font-size:30px ;
-	text-decoration-line: underline;
-	color: rgb(105, 102, 102);
+	color: rgb(19, 19, 19); 
 
 }
 main{

@@ -57,7 +57,7 @@ table {
 
 	/* set a background image and add shadow  */
 	header{
-		background-image: url(../img/b11.jpg);
+		background-image: url(../img/bg-2.jpg);
 		background-position:center;
 		background-repeat:no-repeat;
 		background-size: cover; 
@@ -93,7 +93,7 @@ table {
 	nav a.active{
 		font-size: 16px;
 		line-height: 20px;
-		text-decoration-line: underline;
+		/* text-decoration-line: underline; */
 	}
 	main{
 		margin: 30px;

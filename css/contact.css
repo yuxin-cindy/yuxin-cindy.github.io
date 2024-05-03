@@ -88,10 +88,10 @@ nav ul li a{
 }
 nav a:hover,
 nav a.active{
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 18px;
 	line-height: 20px;
-	text-decoration-line: underline;
+	/* text-decoration-line: underline; */
 }
 
 .contact{
