@@ -57,7 +57,7 @@ body{
 
 /* set a background image and add the shadow */
  header{
-    background-image: url(../img/b11.jpg);
+    background-image: url(../img/bg-2.jpg);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: cover; 
@@ -86,10 +86,11 @@ nav ul li a{
 }
 nav a:hover,
 nav a.active{
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 16px;
 	line-height: 20px;
-	text-decoration-line: underline;
+	text-shadow: rgba(29, 29, 29, 0.889) 0.2em 0.2em 0.2em;
+	/* text-decoration-line: underline; */
 }
 
 
