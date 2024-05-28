@@ -52,12 +52,12 @@ table {
                                     /* Home page- moblie verion */
 body{
 	font-family: 'Josefin Sans', sans-serif;
-	color:#3C3B3A ;
+	background-image: linear-gradient(rgb(255, 255, 255),rgb(246, 245, 245), rgb(228, 228, 226));
 }
 
 /* set a background image and add the shadow */
  header{
-    background-image: url(../img/bg-2.jpg);
+    background-image: url(../img/github\ banner.png);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: cover; 
@@ -174,16 +174,20 @@ a.cms:hover, a.por:hover{
 	box-shadow: 4px 6px 6px 2px rgba(75, 74, 74, 0.788);
 }
 
-
+/* add the line on the buttom of the main section */
+main {
+	border-bottom: 2px double #ccc;
+	display: block;
+}
 
 /* display footer in 1fr 5fr 2fr in columns */
 .footer{
-	background-image: url(../img/f1.jpg);
+	/* background-image: url(../img/footer.png); */
 	background-position:center;
 	background-size: cover;
 	display: grid;
 	grid-template-columns: 1fr 7fr;
-	color: white;	
+	color: rgb(59, 56, 56);	
 	line-height: 20px;
 }
 footer .logo{
@@ -195,7 +199,7 @@ footer div{
 	
 }
 a {
-    color: white;
+    color: rgb(59, 56, 56);
     text-decoration:none;    
 }
 footer a:hover{

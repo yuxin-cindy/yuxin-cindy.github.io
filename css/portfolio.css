@@ -52,7 +52,8 @@ table {
                                     /* portfolio page- moblie verion */
 	body{
 		font-family: 'Josefin Sans', sans-serif;
-		color:#3C3B3A ;
+		/* color:#3C3B3A ; */
+		background-image: linear-gradient(rgb(255, 255, 255),rgb(246, 245, 245), rgb(228, 228, 226));
 	}
 
 	/* set a background image and add shadow  */
@@ -199,14 +200,19 @@ table {
 		background-size: 100%;
 		padding: 5% 0 5% 0;
 	}
+/* add the line on the buttom of the main section */
+main {
+	border-bottom: 2px double #ccc;
+	display: block;
+}
 
 	.footer{
-		background-image: url(../img/f3.jpg);
+		/* background-image: url(../img/footer.png); */
 		background-position:center;
 		background-size: cover;
 		display: grid;
 		grid-template-columns: 1fr 7fr;
-		color: white;
+		color: rgb(54, 48, 48);
 		line-height: 20px;
 
 	}
@@ -218,7 +224,7 @@ table {
 		font-size: 13px;	
 	}
 	a {
-		color: white;
+		color: rgb(67, 62, 62);
 		text-decoration:none;    
 	}
 	footer a:hover{
