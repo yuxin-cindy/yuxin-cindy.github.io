@@ -139,15 +139,15 @@ table {
 	}
 
 	.website1{
-	background-image: url(../img/web_shcool.PNG);
+	background-image: url(../img/school.jpg);
 	background-position:center;
 	background-repeat:no-repeat;
-	background-size: 100%;
+	background-size:100%;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr ;
 	}
 	.website1 h1, .vid h1, .ux h1,.cms h1,.shopify h1{
-		font-size: 30px;
+		font-size: 20px;
 		color: rgba(253, 253, 253, 0.808);	
 		text-align: center;
 		font-weight: bold;
@@ -186,15 +186,15 @@ table {
 		text-align: center;	
 	}
 	.cms{
-		background-image: url(../img/cms.png);
+		background-image: url(../img/bookstore.png);
 		background-position:center;
 		background-repeat:no-repeat;
-		background-size: 100%;
+		background-size: 80%;
 		display: grid;
 		grid-template-rows: 1fr 1fr 1fr  ;
 	}
 	.shopify{
-		background-image: url(../img/myshopify.png);
+		background-image: url(../img/plant1.png);
 		background-position:center;
 		background-repeat:no-repeat;
 		background-size: 100%;
@@ -261,7 +261,7 @@ main {
 	}
 	h1{
 		font-style: italic;
-		font-size: 30px;
+		font-size: 20px;
 	}
 	
 	nav a:hover,
@@ -283,24 +283,27 @@ main {
 		/* display the imanges in grid */
 	.two{
 		display: grid;
-			grid-template-columns: 1fr 1fr ;
-			grid-template-rows: 1fr 2fr;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 2fr ;
 			grid-template-areas:
-					"cake ride "
-					"night night ";
+					"ride cake "
+					" night night";
 		margin-top: 50px;
+			
 	}
 	.cake{
 		grid-area: cake;
-		height: 100%;
+		height: 80%;
 	}
 	.ride{
 		grid-area: ride;
-		height: 100%;
+		height: 80%;
 	}
 	.night{
 		grid-area: night;
+		height: 50%;
 	}
+	
 
 	footer .logo{
 		width:25px;
@@ -375,7 +378,7 @@ main {
 }
 .avatar, .icon{
 	margin:5% 0;
-	height: 500px;
+	height: 80%;
 }
 
 	/* add the margin of graphic amd text */
@@ -405,8 +408,62 @@ main {
 	grid-gap: 30px;
 	margin-bottom: 70px;
 } */
+
+.arc{
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	color:#3d3b39;
+	margin:20px;
+	gap: 3%;
+	text-align: center;
+}
+
+
+.unicornpay{
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	color:#3d3b39;
+	margin:20px;
+	gap: 3%;
+	text-align: center;
+	font-size: 20px;
+}
+
+.wp{
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	color:#3d3b39;
+	margin:20px;
+	gap: 3%;
+	text-align: center;
+}
+
+.Garden{
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	color:#3d3b39;
+	margin:20px;
+	gap: 3%;
+	text-align: center;
+}
+
+/* ui/ux */
+
+.prototype{
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	color:#3d3b39;
+	margin:20px;
+	gap: 3%;
+	text-align: center;
+}
+/* .high{
+	background-color: #d7ded459;
+	color:#33322e
+} */
+
 .web h1{
-	font-size: 100px;
+	font-size: 50px;
 }
 
 
@@ -432,8 +489,10 @@ main {
 			grid-template-rows: 1fr 2fr;
 			grid-template-areas:
 					"ride cake "
-					"night night ";
+					"night night";
 		margin-top: 110px;
+		grid-gap:6%;
+	
 	}
 	.cake{
 		grid-area: cake;
@@ -441,12 +500,22 @@ main {
 	}
 	.ride{
 		grid-area: ride;
-		height: 100%;
+		height: 80%;
 	}
 	.night{
 		grid-area: night;
+			height: 80%;
 	} 
-	
+
+
+
+
+	/* text of gallery */
+	.gallery{
+		font-size: 80px;
+		text-align: center;
+		margin-top: 100px;
+	}
 /* changed font,a logo and icons size  */
 	
 	footer .logo{
