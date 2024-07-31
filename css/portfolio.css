@@ -414,12 +414,7 @@ main {
 .one h3{
 	margin: 80px 30px 30px 30px;
 }
-.web{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 30px;
-	margin-bottom: 70px;
-}
+
 
 .arc{
 	display: grid;
