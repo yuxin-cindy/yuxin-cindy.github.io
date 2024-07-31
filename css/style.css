@@ -92,11 +92,29 @@ nav a.active{
 	text-shadow: rgba(44, 44, 44, 0.889) 0.2em 0.2em 0.2em;
 	/* text-decoration-line: underline; */
 }
+h1{
+	font-family: 'Caveat', cursive;
+	text-align: center;
+	font-stretch: 18px;
+	margin: 30px;
+	text-shadow: rgba(187, 182, 180, 0.815) 0.1em 0.1em 0.2em;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
 
+  }
 
 .contact{
 	margin-bottom: 200px;
 }
+
+p{
+	margin: 20px;
+}
+
 .section1 {
 	margin:50px 10px;
 	display: grid;
@@ -121,10 +139,9 @@ a.cms:hover, a.por:hover{
 }
 
 .website{
-	background-image: url(../img/WCMS2.png);
+	background-image: url(../img/Moby\ Dick\ -\ Post\ 1.1.png);
 	background-position:center;
 	background-size: cover;
-	padding: 90px 70px;
 	margin: 30px auto;
 	color: white;
 	font-weight: bold;
@@ -134,10 +151,10 @@ a.cms:hover, a.por:hover{
 	box-shadow: 4px 6px 6px 2px rgba(75, 74, 74, 0.788);
 }
 .photography{
-	background-image: url(../img/photography.jpg);
+	background-image: url(../img/Educators.png);
 	background-position:center;
 	background-size: cover;
-	padding: 90px 70px;
+	padding: 90px 90px;
 	margin: 30px auto;
 	max-width: 80px;
 	box-shadow: 4px 6px 6px 2px rgba(75, 74, 74, 0.788);
@@ -150,10 +167,10 @@ a.cms:hover, a.por:hover{
 	font-weight: bold;
 }
 .graphics{
-	background-image: url(../img/graphic.jpg);
+	background-image: url(../img/uiux.png);
 	background-position:center;
 	background-size: cover;
-	padding: 90px 70px;
+	padding: 90px 90px;
 	margin: 30px auto;
 	max-width: 80px;
 	color: white;
@@ -162,10 +179,10 @@ a.cms:hover, a.por:hover{
 	box-shadow: 4px 6px 6px 2px rgba(75, 74, 74, 0.788);
 }
 .video{
-	background-image: url(../img/video1.png.jpg);
+	background-image: url(../img/cms.png);
 	background-position:center;
 	background-size: cover;
-	padding: 90px 70px;
+	padding: 90px 90px;
 	margin: 30px auto;
 	max-width: 80px;
 	color: white;
@@ -236,13 +253,15 @@ nav ul li a{
 	.photography,
 	.graphics,
 	.video{
-		padding: 25%;
+		padding: 5%;
 
 	}
 h1{
 	font-style: italic;
 	font-size: 30px;
 }
+
+
 
 nav a:hover,
 nav a.active{
@@ -306,9 +325,23 @@ nav a.active{
 }
 	
 h1{
-	font-style: italic;
-	font-size: 30px;
+	font-size: 80px;
+	margin:20px 90px 90px 90px;
 }
+
+.Jobtitle{
+	font-size: 35px;
+	font-family: 'Caveat', cursive;
+	margin-top: 60px;
+}
+
+p{
+	font-size: 25px;
+	text-align: center;
+	margin: 5%;
+	line-height: 200%;
+}
+
 .photography h1{
 	font-size: 30px;
 }
@@ -344,7 +377,7 @@ main .section2{
 	.photography,
 	.graphics,
 	.video{
-		padding: 28% 33%;
+		padding: 38% 33%;
 		margin:20px 10px 20px 20px;
 		margin-top: 40px;
 		
@@ -359,6 +392,7 @@ main .section2{
 		font-size: 20px;
 		
 	}
+
 	.text{
         display: grid;
        grid-template-columns: 1fr 1fr;       

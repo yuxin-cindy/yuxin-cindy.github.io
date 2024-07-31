@@ -414,12 +414,12 @@ main {
 .one h3{
 	margin: 80px 30px 30px 30px;
 }
-/* .web{
+.web{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 30px;
 	margin-bottom: 70px;
-} */
+}
 
 .arc{
 	display: grid;
@@ -490,9 +490,9 @@ main {
 	.one {
 		border-bottom: 2px solid rgba(172, 164, 163, 0.815); 
 	}
-	div.web{
+	/* div.web{
 		margin: 0px 0px 110px 0px;
-	}
+	} */
 
 	/* display the imanges in grid */
 	.two{
