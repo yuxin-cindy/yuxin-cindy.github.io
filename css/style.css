@@ -57,7 +57,7 @@ body{
 
 /* set a background image and add the shadow */
  header{
-    background-image: url(../img/github\ banner.png);
+    background-image: url(../img/banner.png);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: cover; 
@@ -204,7 +204,7 @@ main {
 	line-height: 20px;
 }
 footer .logo{
-	width:20px;
+	width:30px;
 }
 footer div{
 	margin:20px 0;
