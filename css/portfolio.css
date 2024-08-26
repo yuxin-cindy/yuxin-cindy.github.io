@@ -159,19 +159,20 @@ table {
 		text-shadow: rgba(78, 75, 74, 0.815) 0.1em 0.1em 0.2em;
 	}
 	
-	.website1 h1:hover,.vid h1:hover, .ux h1:hover,.cms h1:hover{
-		color: rgb(238, 244, 246);	
-		background: rgba(208, 213, 213, 0.181);
+	.website1 h1:hover,.vid h1:hover, .ux h1:hover,.shopify h1:hover,.cms h1:hover{
+		color: rgb(255, 255, 255);	
+		background: rgba(83, 84, 84, 0.136);
 		text-shadow: rgba(58, 61, 59, 0.886) 0.1em 0.2em 0.3em;
+		text-align: center;
 		
 	}
 	
-	.shopify h1:hover{
-		color: #effaf9;
-		background: rgba(208, 213, 213, 0.281);
+	/* .shopify h1:hover{
+		color: rgb(238, 244, 246);	
+		background: rgba(132, 134, 134, 0.181);
 		text-align: center;
 		text-shadow: rgba(58, 61, 59, 0.886) 0.1em 0.2em 0.3em;
-	}
+	} */
 
 	.vid{
 		background-image: url(../img/video.PNG);
@@ -192,7 +193,7 @@ table {
 		text-align: center;	
 	}
 	.cms{
-		background-image: url(../img/bookstore.png);
+		background-image: url(../img/WordPress\ screenshots.png);
 		background-position:center;
 		background-repeat:no-repeat;
 		background-size: 80%;
@@ -200,10 +201,10 @@ table {
 		grid-template-rows: 1fr 1fr 1fr  ;
 	}
 	.shopify{
-		background-image: url(../img/plant1.png);
+		background-image: url(../img/Shopify\ screenshots-02-02\ .png);
 		background-position:center;
 		background-repeat:no-repeat;
-		background-size: 80%;
+		background-size:100%;
 		display: grid;
 		grid-template-rows: 1fr 1fr 1fr  ;
 	}
@@ -449,7 +450,7 @@ main {
 	display: grid;
 	grid-template-columns: 3fr 2fr;
 	color:#3d3b39;
-	margin:20px;
+	/* margin:20px; */
 	gap: 3%;
 	text-align: center;
 }
